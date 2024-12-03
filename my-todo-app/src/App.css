@@ -5,6 +5,14 @@
   text-align: center;
 }
 
+#todohead {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1rem 1rem 5rem;
+  text-align: center;
+  font-size: 400%;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
