@@ -1,12 +1,9 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import { Button } from "@/components/ui/button"
 import './App.css' 
 
 interface todo {
   id: number,
   action: string,
-  category: string,
   complete: boolean
 }
 
@@ -16,6 +13,9 @@ function App() {
     <body>
       <div id='todohead'>
         <h1>My Todos</h1>
+      </div>
+      <div id='adddiv'>
+        <Button id="addbutton" variant="outline">Add ToDo</Button>
       </div>
       <div className='grid grid-cols-4 gap-6'>
         <p>Hi</p>
